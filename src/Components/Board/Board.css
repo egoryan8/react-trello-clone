@@ -1,0 +1,76 @@
+.board {
+  min-width: 300px;
+  width: 300px;
+  height: 100%;
+  overflow-y: auto;
+  flex-basis: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #17394d;
+}
+.board-inner{
+  background-color: rgba(214, 211, 211, 0.55);
+  padding: 15px;
+  border-radius: 3px;
+}
+.board-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.board-header-title {
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.board-header-title span {
+  color: rgb(145, 145, 145);
+}
+
+.board-header-title-more {
+  cursor: pointer;
+  position: relative;
+}
+
+.board-dropdown {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 5px 10px;
+  cursor: default;
+  width: max-content;
+}
+.board-dropdown p {
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.board-cards {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+}
+
+.board-add-card {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  text-align: center;
+}
+.board-add-card-edit {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}

@@ -1,0 +1,13 @@
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: rgb(237, 62, 62);
+  border-radius: 5px;
+  width: fit-content;
+  height: fit-content;
+  max-width: 250px;
+  max-height: 390px;
+  overflow-y: auto;
+  z-index: 5;
+}
